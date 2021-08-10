@@ -173,6 +173,7 @@
 }
 .projects{
     height: 800px;
+    width: 100%;
     margin-top: 60px;
     text-align: center;
     align-items: center;
@@ -187,12 +188,26 @@
     width: 100%;
     margin-top: 100px;
     display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 .project{
-    width: 500px;
+    width: 25rem;
 }
 .project img{
     width: 100%;
+}
+.contact{
+    height: 800px;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact h1{
+    font-size: 3.5rem;
+    color: #e75105;
 }
 
 /*anima*/
