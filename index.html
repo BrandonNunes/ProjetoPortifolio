@@ -12,19 +12,20 @@
 </head>
 <body>
     <main class="container">
-        <header class="header">
+        <header class="header" id="head">
             <img src="images/codes.jpg" alt="">
             <div class="profile">
-                <h1>Desenvolvedor Web - <span>FrontEnd</span></h1>
+                <h1>Desenvolvedor <span style="color: #e75105; text-shadow: 1px 1px black">FrontEnd</span> - Junior</h1>
                 <p class="name">
-                    Brandon Alves
+                    <span style="color: #e75105; text-shadow: 1px 1px black;">Brandon</span> Nunes
                 </p>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Portifolio</a></li>
-                    <li><a href="#">Tecnologias</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#tec">Tecnologias</a></li>
+                    <li><a href="#projec">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </div>
         
@@ -34,13 +35,13 @@
                     <div class="line c"></div>
             </div>
         </header>
-        <section class="about">
+        <section class="about" id="about">
                 <h1>Um pouco sobre mim</h1>
                 <p>Desenvolvedor Web desde o início de 2021. Cursando Análise e Desenvolvimento de Sistemas. 
                     Focado na Stack de Frontend, Apaixonado por  tecnologia e desenvolvimento, sempre buscando me especializar e melhorar mais no que faço. Experiência com algumas das principais tecnologias do mercado. Sempre buscando qualidade nos códigos, trabalhando com versionamento e boas práticas. Atento a web semântica, experiência do usuário, performance web, cultura ágil. No momento estudando e me especializando em ReactJS e dando início a estudos com o Node.js, básico de PHP mesmo sendo fora da Stack que atuo busco conhecimento nestas tecnologias para fins de ganho de produtividade e possibilidade de atuação como FullStack no futuro.</p>
         </section>
 
-        <section class="techno">
+        <section class="techno" id="tec">
                 <h1>Tecnologias</h1>
                 <div class="tecContainer" data-anima="left">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" class="tec">
@@ -58,10 +59,10 @@
                 </p>
             </section>
 
-            <section class="projects">
+            <section class="projects" id="projec">
                     <h1>Alguns Projetos</h1>
                     <div class="content-projects">
-                        <div class="project">
+                        <div class="project" data-anima="right">
                             <img src="images/gifs/slidepage.gif" alt="">
                             <p><a href="https://brandonnunes.github.io/coding-bootcamp-testimonials-slider-master/" target="_blank" rel="noopener noreferrer">Teste aqui</a></p>
                             <p>Slider de imagens usando CSS e JavaScript puro,
@@ -69,7 +70,7 @@
                                 responsividade para dispositivos moveis.
                             </p>
                         </div>
-                        <div class="project">
+                        <div class="project" data-anima="right">
                             <img src="images/gifs/page2.gif" alt="">
                             <p><a href="https://brandonnunes.github.io/stats-preview-card-component-main/stats-preview-card-component-main/" target="_blank" rel="noopener noreferrer">Teste aqui</a></p>
                             <p>
@@ -77,14 +78,14 @@
                                 informações de uma empresa, simples, bonita e objetiva, projeto feito usando HTML5 Semantico e CSS, Totalmente responsiva para dispositivos moveis.
                             </p>
                         </div>
-                        <div class="project">
+                        <div class="project" data-anima="left">
                             <img src="images/gifs/page3col.gif" alt="">
                             <p><a href="https://brandonnunes.github.io/3-column-preview-card-component-main/" target="_blank" rel="noopener noreferrer">Teste aqui</a></p>
                             <p>Pagina simulando a apresentação dos produtos de uma consercionária de veículos, pagina feita utilizando HTML5, CSS Flex-Box
                             ,Tambem foi feita de forma responsiva e adaptativa a dispositivos moveis.
                             </p>
                         </div>
-                        <div class="project">
+                        <div class="project" data-anima="left">
                             <img src="images/gifs/pagetipcal.gif" alt="">
                             <p><a href="https://tip-calculator-app-main-woad.vercel.app/" target="_blank" rel="noopener noreferrer">Teste aqui</a></p>
                             <p>Uma calculadora de gorjetas, pode ser adaptada para ser uma pagina web, um app para smartphones, ou um adapitado ao sistema de um restaurante por exemplo. 
@@ -95,9 +96,54 @@
                         </div>
                     </div>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <h1>Minhas Redes e como me encontrar</h1>
+                <div class="contactContent">
+                    <article class="github">
+                        
+                        <a href="https://github.com/BrandonNunes" target="_blank" rel="noopener noreferrer">
+                            <img src="https://image.flaticon.com/icons/png/128/2111/2111432.png" alt=""> 
+                            
+                        </a>
+                        <p>
+                            Meu GitHub
+                        </p>
+                    </article>
+                    <article class="linkedin">
+                         
+                       <a href="https://www.linkedin.com/in/brandon-nunes-69401320b/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://image.flaticon.com/icons/png/128/1384/1384014.png" alt="">
+                           
+                        </a>
+                        <p>
+                            Meu linkedIn
+                        </p>
+                    </article>
+                    <article class="email">
+                        
+                        
+                            <img src="https://img-premium.flaticon.com/png/128/542/premium/542689.png?token=exp=1628638230~hmac=48450c02e975f1379ebaef4437e02102" alt="brandonalvesn@gmail.com"> 
+        
+                        <p>
+                            Meu Email <br> brandonalvesn@gmail.com
+                         </p>
+                    </article>
+                    <article class="insta">
+                         
+                        <a href="https://www.instagram.com/brandon.nunes/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://image.flaticon.com/icons/png/128/1384/1384015.png" alt="">
+                         
+                        </a>
+                        <p>
+                            Me segue no Instagram
+                          </p>
+                    </article>
+                </div>
             </section>
+            <button class="arrow"><a href="#head">>></a></button>
+            <footer class="footer">
+                <h2>&copy; 2021 Brandon Nunes</h2>
+            </footer>
     </main>
     
 </body>

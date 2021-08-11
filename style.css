@@ -6,11 +6,20 @@
     box-sizing: border-box;
     font-family: "Poppins";
 }
+html{scroll-behavior: smooth;
+}
+ 
+/* :target {
+  scroll-margin-top: .8em;
+} */
 .container{
  width: 100%;
- height: 100%;
+ /* height: 100%; */
  position: relative;
  background-color: rgb(219, 216, 216);
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
 }
 .header{
     width: 100%;
@@ -55,7 +64,7 @@
     float: left;
     background-color: #e75105;
     width: 460px;
-    height: 60rem;
+    height: 40rem;
     padding: 30px;
     border-bottom-right-radius: 50%;
     border-top-right-radius: 50%;
@@ -86,12 +95,9 @@
     color: #fff;
 }
 .menu ul li:hover{
-    background-color: #e75105;
     padding: 1px 2px;
     border: none;
-    border-radius: 1rem;
-    text-decoration:underline;
-    box-shadow: 1px 2px 1px #3f074e5b;
+    text-decoration:underline;  
 }
 .btn-hamb{
     position: absolute;
@@ -131,7 +137,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+    scroll-behavior: smooth;
 }
 .about h1{
     font-size: 3.5rem;
@@ -146,11 +152,12 @@
 }
 .techno{
     height: 800px;
-    margin-top: 60px;
+    margin-top: 250px;
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
 }
 .techno h1{
     font-size: 3.5rem;
@@ -174,7 +181,7 @@
 .projects{
     height: 800px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 150px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -208,6 +215,43 @@
 .contact h1{
     font-size: 3.5rem;
     color: #e75105;
+}
+.contactContent{
+    display: flex;
+    margin-top: 80px;
+    gap: 2rem;
+}
+article:hover{
+    transform: scale(1.2);
+   transition: all 0.5s ease-in-out;
+}
+.footer{
+    border-top: 1px solid gray;
+    text-align: center;
+    color: gray;
+}
+.arrow{
+    font-size: 4rem;
+    color: #000000aa;
+    letter-spacing: .2rem;
+    transform: rotate(-90deg);
+    animation: pisca .7s infinite ease-in-out alternate;
+    align-self: center;
+    border: none;
+    background-color: transparent;
+    height: 4rem;
+    cursor: pointer;
+}
+.arrow a{
+    text-decoration: none;
+    color: #000000aa;
+}
+@keyframes pisca {
+    to{
+        opacity: 0.3;
+        transform: translateY(-1rem) rotate(-90deg);
+        
+    }
 }
 
 /*anima*/
