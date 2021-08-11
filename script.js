@@ -32,3 +32,17 @@ if(anima.length){
         animaScroll();
     })
 }
+
+//Change mode
+
+const toggle = document.querySelector(".toggle");
+
+function change(){
+    const cont = document.querySelector(".contact");
+    const main = document.querySelector(".container");
+    const arrow = document.querySelectorAll(".arrow")
+    toggle.classList.toggle('nocturn');
+    main.classList.toggle("nocturn");
+    cont.classList.toggle('nocturn');
+    arrow.classList.toggle('nocturn');
+}
