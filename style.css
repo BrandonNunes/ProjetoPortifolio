@@ -38,7 +38,7 @@ html{scroll-behavior: smooth;
 }
 .toggle{
     z-index: 100;
-    background-image: url(https://img-premium.flaticon.com/png/128/2354/premium/2354809.png?token=exp=1628648524~hmac=d138442e1c5a096f2f2cd77075bd0415);
+    background-image: url(./images/moon.png);
     background-size: contain;
     background-color: #ffffff33;
     height: 30px;
@@ -50,7 +50,7 @@ html{scroll-behavior: smooth;
     border-radius: 3px;
 }
 .toggle.nocturn{
-    background-image: url(https://img-premium.flaticon.com/png/128/1812/premium/1812717.png?token=exp=1628649342~hmac=254d987f970616106b1a58c608ba612b);
+    background-image: url(./images/sun.png);
     background-color: #ffffffdd;
 }
 .container.nocturn{
@@ -251,6 +251,9 @@ html{scroll-behavior: smooth;
 article:hover{
     transform: scale(1.2);
    transition: all 0.5s ease-in-out;
+}
+article img{
+    width: 5rem;
 }
 .footer{
     border-top: 1px solid gray;
