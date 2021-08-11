@@ -20,6 +20,7 @@ html{scroll-behavior: smooth;
  display: flex;
  flex-direction: column;
  overflow: hidden;
+ text-align: justify;
 }
 .header{
     width: 100%;
@@ -80,6 +81,7 @@ html{scroll-behavior: smooth;
 .profile p{
     color:#fff;
     font-size: 1.5rem;
+    width: 100%;
 }
 .menu{
     position: absolute;
@@ -172,7 +174,7 @@ html{scroll-behavior: smooth;
     font-size: 2rem;
     text-align:center;
     justify-content: center;
-    width: 70%;
+    width: 90%;
 }
 .techno{
     height: 800px;
@@ -247,6 +249,9 @@ html{scroll-behavior: smooth;
     display: flex;
     margin-top: 80px;
     gap: 2rem;
+}
+article{
+    margin-left: 4rem;
 }
 article:hover{
     transform: scale(1.2);
