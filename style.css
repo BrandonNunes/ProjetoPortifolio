@@ -274,8 +274,6 @@ article img{
     align-self: center;
     border: none;
      background-color: transparent;
-    /* height: 9rem;
-    width: 3rem; */ 
     cursor: pointer;
 }
 .arrow a{
@@ -290,7 +288,7 @@ article img{
     to{
         opacity: 0.3;
         transform: translateY(-1rem) rotate(-90deg);
-        
+        background-color: transparent;
     }
 }
 
@@ -407,6 +405,107 @@ article img{
     } 
     article img{
         width: 3rem;
+    }
+    .arrow{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width:414px) {
+    .header{
+        width: 100%;
+        height: 100vh;
+    }
+    .profile{
+        top: 50%;
+        right: 2rem;
+    }
+    .profile h1{
+        font-size: 1rem;
+    }
+    .profile p{
+        font-size: 1rem;
+    }
+    .about{
+        height: 400px;
+    }
+    .about h1{
+        font-size: 2rem;
+    }
+    .about p{
+        font-size: 1.1rem;
+    }
+    .menu{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    .techno{
+        height: 600px;
+        margin-top: 250px;
+        text-align: center;
+        align-items: center;
+    }
+    .techno h1{
+        font-size: 2.5rem;
+    }
+    .tecContainer{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .techno img{
+        height: 150px;
+        width: 100px;
+    }
+    .techno p{
+        margin-top: 30px;
+        font-size: 1.1rem;
+    }
+    .projects{
+        width: 100%;
+        margin-top: 150px;
+    }
+    .projects h1{
+        font-size: 2rem;
+    }
+    .content-projects{
+        width: 100%;
+
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .project{
+        width: 80%;
+    }
+    .contact{
+        height: 600px;
+        margin-top:60rem;      
+    }
+    .contact h1{
+        font-size: 2rem;
+    }
+    .contactContent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* flex-direction: column; */
+        margin-top: 80px;
+        gap: 4rem;
+    }
+    article{
+        margin-left: .5rem;
+    } 
+    article p{
+        font-size: .8rem;
+    }
+    article img{
+        width: 5rem;
     }
     .arrow{
         font-size: 2rem;
