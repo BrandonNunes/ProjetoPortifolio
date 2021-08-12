@@ -14,6 +14,7 @@ html{scroll-behavior: smooth;
 } */
 .container{
  width: 100%;
+ height: 100%;
  position: relative;
  background-color: rgb(219, 216, 216);
  display: flex;
@@ -308,4 +309,107 @@ article img{
 [data-anima].play{
     opacity: 1;
     transform: translate(0,0);
+}
+
+@media screen and (max-width:768px) {
+    .profile{
+        top: 50%;
+        right: 7rem;
+    }
+    .profile h1{
+        font-size: 1.5rem;
+    }
+    .profile p{
+        font-size: 1.2rem;
+    }
+    .about{
+        height: 400px;
+    }
+    .about h1{
+        font-size: 3rem;
+    }
+    .about p{
+        font-size: 1.5rem;
+    }
+    .menu{
+        width: 300px;
+        height: 40rem;
+        padding: 30px;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    .menu ul{
+        color: #fff;
+        width: 100%;
+        height: 100%;
+    }
+    .menu ul li{
+        font-size: 2rem; 
+    }
+    .techno{
+        height: 600px;
+        margin-top: 250px;
+        text-align: center;
+        align-items: center;
+    }
+    .techno h1{
+        font-size: 3rem;
+    }
+    .tecContainer{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .techno img{
+        height: 100px;
+        width: 100px;
+    }
+    .techno p{
+        margin-top: 30px;
+        font-size: 1.5rem;
+    }
+    .projects{
+        width: 100%;
+        margin-top: 150px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .projects h1{
+        font-size: 3rem;
+    }
+    .content-projects{
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .project{
+        width: 80%;
+    }
+    .contact{
+        height: 600px;
+        margin-top:80rem;      
+    }
+    .contact h1{
+        font-size: 3rem;
+    }
+    .contactContent{
+        display: flex;
+        margin-top: 80px;
+        gap: 1rem;
+    }
+    article{
+        margin-left: 3rem;
+    } 
+    article img{
+        width: 3rem;
+    }
+    .arrow{
+        font-size: 2rem;
+    }
+
 }
