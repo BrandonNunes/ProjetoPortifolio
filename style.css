@@ -442,6 +442,20 @@ article img{
         border-bottom-right-radius: 50%;
         border-top-right-radius: 50%;
     }
+    .btn-hamb{
+        right: 2rem;
+        top: 2rem;
+        width: 3rem;
+        height: 2rem;
+        cursor: pointer;
+        z-index: 99;
+    }
+    .line{
+        background-color: white;
+        height: 4px;
+        width: 2rem;
+        transition: all .5s;
+    }
     .techno{
         height: 600px;
         margin-top: 250px;
