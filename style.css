@@ -451,9 +451,15 @@ article img{
         z-index: 99;
     }
     .line{
-        background-color: white;
         height: 4px;
         width: 2rem;
+    }
+    .line.a.active{
+        transform: rotate(-45deg) translate(-18px, 13px) ;
+        transition: all .5s;
+     }
+    .line.c.active{
+        transform: rotate(45deg) translate(-7px, -2px);
         transition: all .5s;
     }
     .techno{
@@ -508,9 +514,8 @@ article img{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        /* flex-direction: column; */
         margin-top: 80px;
-        gap: 4rem;
+        gap: 2rem;
     }
     article{
         margin-left: .5rem;
@@ -525,4 +530,10 @@ article img{
         font-size: 2rem;
     }
 
+}
+@media screen and (max-width:375px) {
+    .projects{
+        width: 100%;
+        margin-top: 250px;
+    }
 }
