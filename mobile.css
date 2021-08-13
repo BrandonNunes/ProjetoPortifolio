@@ -1,0 +1,262 @@
+
+
+@media screen and (max-width:768px) {
+    .profile{
+        top: 50%;
+        right: 7rem;
+    }
+    .profile h1{
+        font-size: 1.5rem;
+    }
+    .profile p{
+        font-size: 1.2rem;
+    }
+    .about{
+        height: 400px;
+    }
+    .about h1{
+        font-size: 3rem;
+    }
+    .about p{
+        font-size: 1.5rem;
+    }
+    .menu{
+        width: 300px;
+        height: 40rem;
+        padding: 30px;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    .menu ul{
+        color: #fff;
+        width: 100%;
+        height: 100%;
+    }
+    .menu ul li{
+        font-size: 2rem; 
+    }
+    .techno{
+        height: 600px;
+        margin-top: 250px;
+        text-align: center;
+        align-items: center;
+    }
+    .techno h1{
+        font-size: 3rem;
+    }
+    .tecContainer{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .techno img{
+        height: 100px;
+        width: 100px;
+    }
+    .techno p{
+        margin-top: 30px;
+        font-size: 1.5rem;
+    }
+    .projects{
+        width: 100%;
+        margin-top: 150px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .projects h1{
+        font-size: 3rem;
+    }
+    .content-projects{
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .project{
+        width: 80%;
+    }
+    .contact{
+        height: 600px;
+        margin-top:80rem;      
+    }
+    .contact h1{
+        font-size: 3rem;
+    }
+    .contactContent{
+        display: flex;
+        margin-top: 80px;
+        gap: 1rem;
+    }
+    article{
+        margin-left: 3rem;
+    } 
+    article img{
+        width: 3rem;
+    }
+    .arrow{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width:414px) {
+    .header{
+        width: 100%;
+        height: 100vh;
+    }
+    .profile{
+        top: 50%;
+        right: 2rem;
+    }
+    .profile h1{
+        font-size: 1rem;
+    }
+    .profile p{
+        font-size: 1rem;
+    }
+    .about{
+        height: 400px;
+    }
+    .about h1{
+        font-size: 2rem;
+    }
+    .about p{
+        font-size: 1.1rem;
+    }
+    .menu{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    .btn-hamb{
+        right: 2rem;
+        top: 2rem;
+        width: 3rem;
+        height: 2rem;
+        cursor: pointer;
+        z-index: 99;
+    }
+    .line{
+        height: 4px;
+        width: 2rem;
+    }
+    .line.a.active{
+        transform: rotate(-45deg) translate(-18px, 13px) ;
+        transition: all .5s;
+     }
+    .line.c.active{
+        transform: rotate(45deg) translate(-7px, -2px);
+        transition: all .5s;
+    }
+    .techno{
+        height: 600px;
+        margin-top: 300px;
+        text-align: center;
+        align-items: center;
+    }
+    .techno h1{
+        font-size: 2.5rem;
+    }
+    .tecContainer{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .techno img{
+        height: 150px;
+        width: 100px;
+    }
+    .techno p{
+        margin-top: 30px;
+        font-size: 1.1rem;
+    }
+    .projects{
+        width: 100%;
+        margin-top: 250px;
+    }
+    .projects h1{
+        font-size: 2rem;
+    }
+    .content-projects{
+        width: 100%;
+
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .project{
+        width: 80%;
+    }
+    .contact{
+        height: 600px;
+        margin-top:60rem;      
+    }
+    .contact h1{
+        font-size: 2rem;
+    }
+    .contactContent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 80px;
+        gap: 2rem;
+    }
+    article{
+        margin-left: .5rem;
+    } 
+    article p{
+        font-size: .8rem;
+    }
+    article img{
+        width: 5rem;
+    }
+    .arrow{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width:375px) {
+    .projects{
+        width: 100%;
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width:360px) {
+    .techno{
+        height: 600px;
+        margin-top: 370px;
+        text-align: center;
+        align-items: center;
+    }
+    .contact{
+        height: 600px;
+        margin-top:65rem;      
+    }
+    .contact h1{
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .techno{
+        height: 600px;
+        margin-top: 35rem;
+        text-align: center;
+        align-items: center;
+    }
+    .contact{
+        height: 600px;
+        margin-top:65rem;      
+    }
+    .contact h1{
+        font-size: 1.5rem;
+    }
+
+}
